@@ -1,0 +1,224 @@
+
+.login{
+    width: 400px;
+    height: 300px;
+    background-color: #f9bcff;
+    background-size: auto;
+    opacity: 0.5;
+    margin: 0 auto;
+    padding: 50px;
+    position: fixed; top: 50%; left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-width: 10px;
+    border-style: outset;
+    border-color: #9779dd;
+}
+.about_user{
+    width: 550px;
+    height: 500px;
+    background-color: #f9bcff;
+    background-size: auto;
+    opacity: 0.5;
+    padding: 50px;
+    position: fixed; top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    border-width: 10px;
+    border-style: outset;
+    border-color: #9779dd;
+}
+.registrationForm{
+    width: 400px;
+    height: 500px;
+    background-color: #f9bcff;
+    background-size: auto;
+    opacity: 0.5;
+    margin: 0 auto;
+    padding: 50px;
+    position: fixed; top: 50%; left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-width: 10px;
+    border-style: outset;
+    border-color: #9779dd;
+}
+.tasks{
+    width: 1200px;
+    height: 500px;
+    background-color: #ffeff9;
+    background-size:initial;
+    opacity: 0.6;
+    padding: 50px;
+    position: fixed; top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    border-width: 15px;
+    border-radius: 15px;
+    border-style: inset;
+    border-color: #ab47ee;
+}
+
+.tasksForm{
+    position:absolute;
+    top: 4%;
+    bottom: 0;
+    left:0%;
+    right:0;
+    margin: auto;
+}
+.form_login{
+    position:absolute;
+    top: 28%;
+    bottom: 0;
+    left:0;
+    right:0;
+    margin: auto;
+}
+.form-signup {
+    position: absolute;
+    top: 25%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.form-control1{
+    top: 10%;
+    font-family: Arial;
+    font-size: 16px;
+    border-radius: 20px;
+    border-width: 2px;
+    left: 0px;
+    width: 490px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+button {
+    width: 170px;
+    height: 30px;
+    background-color: rgb(91, 7, 160);
+    color: white;
+    border-radius: 15px;
+    font-size: 16px;
+}
+*, a:focus {
+    outline: none !important;
+}
+.p {
+    margin-bottom: 10px;;
+}
+.heading{
+    text-align: center;
+    position: fixed;
+    top: 5%;
+    left: 26%;
+    font-weight: 1000;
+    font-size: 35px;
+}
+.heading1{
+    text-align: center;
+    position: fixed;
+    top: 5%;
+    left: 30%;
+    font-weight: 1000;
+    font-size: 35px;
+}
+.titelpage2{
+    text-align: center;
+    position: fixed;
+    top: 0%;
+    left: 30%;
+    font-weight: 1000;
+    font-family: Monotype Corsiva;
+    font-size: 35px;
+}
+.form-control{
+    font-family: Arial;
+    font-size: 16px;
+    border-radius: 20px;
+    border-width: 2px;
+    left: 0px;
+    width: 500px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+label{
+    font-family: Arial;
+    font-size: 14px;
+    color: #8445f8;
+}
+to_subscribe{
+    font-size: 14px;
+    color: #aa7efc;
+}
+table {
+    border-spacing: 4px 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+th {
+    padding: 10px 20px;
+    background: #20011e;
+    color: #aa7efc;
+    border-right: 4px outset;
+    font-size: 0.9em;
+    border-radius: 5px;
+    border-color: transparent;
+}
+th:first-child {
+    text-align: left;
+}
+th:last-child {
+    border-right: none;
+}
+td {
+    vertical-align: middle;
+    padding: 15px;
+    font-size: 14px;
+    text-align: center;
+    border-top: 2px outset #aa7efc;
+    border-bottom: 2px outset #530b97;
+    border-right: 2px outset #997efc;
+    border-left: violet;
+    border-collapse: inherit;
+    border-radius: 10px;
+;
+}
+td:first-child {
+    border-left: 2px solid #56433D;
+    border-right: none;
+}
+td:nth-child(2){
+    text-align: left;
+}
+tbody{
+    border: transparent;
+}
+.data_about_user {
+    position: relative;
+    margin-bottom: 40px;
+}
+.input_form {
+    width: 100%;
+    padding: 0 0 10px 0;
+    border: none;
+    border-bottom: 4px solid #f9bcff;
+    background-color: transparent;
+    transition: 0.2s;
+    font-size: 18px;
+}
+.form_label {
+    position: absolute;
+    top: -25px;
+    color: #031b5c;
+    transition: 2s;
+}

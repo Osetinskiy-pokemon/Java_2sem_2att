@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Информация о пользователе</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <style>
+        body {
+            background: #9696ff url("https://kartinkinaden.ru/uploads/posts/2021-01/1610487835_13-p-stilnii-fon-dlya-prezentatsii-23.jpg");
+            text-align: center;
+            background-color: cornflowerblue;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="about_user">
+        <form class="about_userForm">
+            <h2 class="titlepage2">Личный кабинет</h2>
+            <div class="data_about_user">
+                <label class="form_label">Имя: </label>
+                <input type="text" id="firstName" class="input_form" placeholder="Ваше имя ❤" required >
+            </div>
+            <div class="data_about_user">
+               <label class="form_label">Фамилия: </label>
+                <input type="text" id="lastName" class="input_form" placeholder="Ваша фамилия ❤" required >
+            </div>
+            <div class="data_about_user">
+                <label class="form_label">Отчество: </label>
+                <input type="text" id="middleName" class="input_form" placeholder="Ваше отчество ❤" required >
+            </div>
+            <div class="data_about_user">
+                <label class="form_label">Логин: </label>
+                <input type="text" id="login" class="input_form" placeholder="Ваш логин ❤" required >
+            </div>
+            <div class="data_about_user">
+                <label class="form_label">Текущий пароль: </label>
+                <input type="password" id="password" class="input_form" placeholder="Ваш пароль ❤" required>
+            </div>
+            <div class="data_about_user">
+                <label class="form_label">Новый пароль: </label>
+                <input type="password" id="newpassword" class="input_form" placeholder="Повторите пароль ❤" required>
+            </div>
+            <button id="save" class="btn btn-lg btn-primary btn-block" type="submit">Сохранить</button>
+            </p>
+        </form>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/about_user.js"></script>
+</script>
+</html>
